@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4323892658408596413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749099184398408826}
+  - component: {fileID: 8340740461271893580}
+  - component: {fileID: 413970483329110775}
+  - component: {fileID: 7493876723328014137}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749099184398408826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4323892658408596413}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 502.49792, y: 47.687378, z: -31.42112}
+  m_LocalScale: {x: 1.3041, y: 1.3041, z: 1.3041}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8340740461271893580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4323892658408596413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e9a662faf3f424cbf9430c518b184e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allQuests:
+  - title: "Dan\u0131\u015Fman\u0131 Bul"
+    description: 
+    isActive: 0
+    isCompleted: 0
+    targetLocation: {fileID: 0}
+    timeLimit: 0
+    nextQuestName: "Fotokopi \xC7ektir"
+  - title: "Fotokopi \xC7ektir"
+    description: 
+    isActive: 0
+    isCompleted: 0
+    targetLocation: {fileID: 0}
+    timeLimit: 0
+    nextQuestName: "Sekreterli\u011Fe Yeti\u015F"
+  - title: "Sekreterli\u011Fe Yeti\u015F"
+    description: 
+    isActive: 0
+    isCompleted: 0
+    targetLocation: {fileID: 0}
+    timeLimit: 60
+    nextQuestName: "Su Vanas\u0131n\u0131 Kapat"
+  - title: "Su Vanas\u0131n\u0131 Kapat"
+    description: 
+    isActive: 0
+    isCompleted: 0
+    targetLocation: {fileID: 0}
+    timeLimit: 60
+    nextQuestName: 
+  questTitleText: {fileID: 0}
+  timerText: {fileID: 0}
+  questPanel: {fileID: 0}
+--- !u!114 &413970483329110775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4323892658408596413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553358b6705352b4ead11b6477544f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterPanel: {fileID: 0}
+  playerMovement: {fileID: 0}
+  cameraScript: {fileID: 0}
+--- !u!114 &7493876723328014137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4323892658408596413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0d3ddac045e454b90f5435d9252188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinations:
+  - targetName: "Yal\xE7\u0131n yayla"
+    location: {fileID: 0}
+  weeklyTaskPanel: {fileID: 0}
+  targetDropdown: {fileID: 0}
